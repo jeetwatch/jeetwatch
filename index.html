@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KolWatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>KolWatch</h1>
+    <p>Monitoring KOLs and their JeetIndex</p>
+  </header>
+
+  <main>
+    <input type="text" id="search" placeholder="Search KOLs...">
+    <table id="kol-table">
+      <thead>
+        <tr>
+          <th data-column="name">KOL Name</th>
+          <th data-column="projects">Projects</th>
+          <th data-column="amount_eth">Amount ETH</th>
+          <th data-column="amount_tokens">Amount Tokens</th>
+          <th data-column="activity_period">Activity Period</th>
+          <th data-column="jeet_index">JeetIndex</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be populated here -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 KolWatch</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
