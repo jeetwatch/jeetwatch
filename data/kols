@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "kook",
+    "projects": ["$MARVIN"],
+    "amount_eth": 2500,
+    "amount_tokens": 7500,
+    "activity_period": {
+      "start_date": "2023-10-01",
+      "end_date": "2023-10-07"
+    },
+    "jeet_index": 80
+  }
+]
