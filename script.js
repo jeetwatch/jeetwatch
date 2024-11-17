@@ -1,5 +1,5 @@
 // Fetch data from /data/kols
-fetch('/data/kols')
+fetch('data/kols')
   .then(response => response.json())
   .then(data => {
     displayData(data);
